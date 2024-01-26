@@ -24,7 +24,7 @@ const Project = () => {
         <p>React Js & Pure Css 🤞</p>
         <div className="btn-container">
             <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/Login-and-Signup-Html-css" rel="noopener noreferrer">Github</a></button>
-            <button className='btn btn-color-2 project-btn' ><a href="https://prince-kid.github.io/Login-and-Signup-Html-css/"  rel="noopener noreferrer">Live Demo</a></button>
+            <button className='btn btn-color-2 project-btn' ><a href="https://gomagadgets.netlify.app/"  rel="noopener noreferrer">Live Demo</a></button>
         </div>
         </div>
       </div>
