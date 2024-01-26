@@ -1,0 +1,209 @@
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+}
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skillDesc{
+    font-weight: 200;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+.skillbars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillbar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+.skillbarimg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.skillbar>p{
+    font-size:0.75rem;
+    font-weight: 400;
+}
+.skillbar:hover{
+    background-color: darkcyan;
+    color: white;
+}
+summary{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+@media screen and (max-width:720px){
+    .skillbarText>p{
+        font-size: 2vw;
+    }
+
+}
+@media screen and (max-width:480px){
+    .skillbarText>p{
+        font-size: 4vw;
+        font-weight: normal;
+    }
+     .skillbarimg{
+        height:4rem;
+        width: 4rem;
+     }
+     .skillbarText>h2{
+        font-size: 5vw;
+        font-weight: 600;
+     }
+}
+.experiences{
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 30rem;
+    height: 20rem;
+    margin: 10px;
+    padding: 1rem;
+    display: flex;
+    gap: 10rem;
+}
+
+@media screen and (max-width:931px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 25rem;
+        height: 20rem;
+        margin: 10px;
+        padding: 1rem;
+        display: flex;
+        gap: 10rem;
+    }
+    
+}
+
+@media screen and (max-width:785px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 23rem;
+        height: 20rem;
+        margin: 10px;
+        padding: 1rem;
+        display: flex;
+        gap: 8rem;
+    }
+    
+}
+@media screen and (max-width:710px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 20rem;
+        height: 20rem;
+        margin: 10px;
+        padding: 1rem;
+        display: flex;
+        gap: 8rem;
+    }
+    
+}
+@media screen and (max-width:659px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 18rem;
+        height: 20rem;
+        margin: 10px;
+        padding: 1rem;
+        display: flex;
+        gap: 6rem;
+    }
+    
+}
+@media screen and (max-width:628px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 16rem;
+        height: 20rem;
+        margin: 10px;
+        padding: 1rem;
+        display: flex;
+        gap: 3rem;
+    }
+    .skillbarimg{
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      .skillbars{
+       
+        max-width: 100%;
+        width: 100vw;
+        
+    }
+}
+@media screen and (max-width: 480px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 12.5rem;
+        height: 14rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .skillbarimg{
+      width: 2rem;
+      height: 2rem;
+    }
+    .skillbar{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 393px){
+    .experiences{
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 100vw;
+        max-width: 12.5rem;
+        height: 14rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .skillbarimg{
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .skillbar{
+        
+    }
+    .skillbars{
+       
+        max-width: 100%;
+        width: 100vw;
+        
+    }
+}
