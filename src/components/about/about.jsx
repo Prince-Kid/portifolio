@@ -26,7 +26,13 @@ const About = () => {
             </div>
            
             </div>
-            <p className='about-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Modi, exercitationem? Vel, cumque itaque? Enim amet libero numquam ratione facere rerum dicta quo <br /> Laboriosam iusto omnis sit accusantium possimus id commodi. </p>
+            <p className='about-desc'>
+Hello! I'm Prince Mucyo, a passionate software developer from Rwanda. <br></br>
+With a knack for problem-solving, I specialize in web and backend development, <br></br>
+crafting efficient and user-friendly solutions.<br></br>
+ My vision is to create impactful software that addresses real-world needs. <br></br>
+ I actively contribute to open source projects and love connecting with fellow developers.<br></br> 
+ Let's innovate and code together! 🚀 </p>
           </div>
       </div>
     </section>
