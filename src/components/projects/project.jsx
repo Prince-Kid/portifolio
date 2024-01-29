@@ -28,7 +28,19 @@ const Project = () => {
         </div>
         </div>
       </div>
-
+      <div className="details-container">
+        <div className="article-container">
+            <img src={project4} alt="Project  1" className="project-img" />
+        </div>
+        <h4 className="experience-sub-title projrct-title">
+         E-Learning
+        </h4>
+        <p>React Js & Vanilla Css</p>
+        <div className="btn-container">
+            <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/E-Learn-Online-Learning-" rel="noopener noreferrer">Github</a></button>
+            <button className='btn btn-color-2 project-btn' ><a href="https://online-learning-ten.vercel.app/" rel="noopener noreferrer">Live Demo</a></button>
+        </div>
+      </div>
       <div className="details-container">
         <div className="article-container">
             <img src={project2} alt="Project  1" className="project-img" />
@@ -57,19 +69,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className="details-container">
-        <div className="article-container">
-            <img src={project4} alt="Project  1" className="project-img" />
-        </div>
-        <h4 className="experience-sub-title projrct-title">
-         E-Learning
-        </h4>
-        <p>React Js & Vanilla Css</p>
-        <div className="btn-container">
-            <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/E-Learn-Online-Learning-" rel="noopener noreferrer">Github</a></button>
-            <button className='btn btn-color-2 project-btn' ><a href="https://online-learning-ten.vercel.app/" rel="noopener noreferrer">Live Demo</a></button>
-        </div>
-      </div>
+      
 
       <div className="details-container">
         <div className="article-container">
