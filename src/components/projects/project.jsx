@@ -84,7 +84,7 @@ const Project = () => {
         </div>
       </div>
 
-      {/* <div className="details-container">
+       <div className="details-container">
         <div className="article-container">
             <img src={project6} alt="Project  1" className="project-img" />
         </div>
@@ -96,7 +96,7 @@ const Project = () => {
         <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/Login-and-Signup-Html-css" rel="noopener noreferrer">Github</a></button>
             <button className='btn btn-color-2 project-btn' ><a href="https://prince-kid.github.io/Login-and-Signup-Html-css/"  rel="noopener noreferrer">Live Demo</a></button>
         </div>
-      </div> */}
+      </div> 
       </div>
         </div>
     </section>
