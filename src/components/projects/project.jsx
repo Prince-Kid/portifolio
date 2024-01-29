@@ -3,7 +3,7 @@ import "./project.css"
 import project1 from ".//asset/shop.PNG"
 import project2 from ".//asset/expenditure.PNG"
 import project3 from ".//asset/cart.PNG"
-import project4 from ".//asset/school.PNG"
+import project4 from ".//asset/Education.PNG"
 import project5 from ".//asset/inyange.PNG"
 import project6 from ".//asset/log in.png"
 
@@ -21,7 +21,7 @@ const Project = () => {
         <h4 className="experience-sub-title projrct-title">
          Online Shop
         </h4>
-        <p>React Js & Pure Css 🤞</p>
+        <p>React Js & Vanila Css 🤞</p>
         <div className="btn-container">
             <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/Login-and-Signup-Html-css" rel="noopener noreferrer">Github</a></button>
             <button className='btn btn-color-2 project-btn' ><a href="https://gomagadgets.netlify.app/"  rel="noopener noreferrer">Live Demo</a></button>
@@ -62,12 +62,12 @@ const Project = () => {
             <img src={project4} alt="Project  1" className="project-img" />
         </div>
         <h4 className="experience-sub-title projrct-title">
-         School Template
+         E-Learning
         </h4>
-        <p>Html Css ,Bootstrap</p>
+        <p>React Js & Vanilla Css</p>
         <div className="btn-container">
-            <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/School-Project-Design-Html-and-Css" rel="noopener noreferrer">Github</a></button>
-            <button className='btn btn-color-2 project-btn' ><a href="https://prince-kid.github.io/School-Project-Design-Html-and-Css/" rel="noopener noreferrer">Live Demo</a></button>
+            <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/E-Learn-Online-Learning-" rel="noopener noreferrer">Github</a></button>
+            <button className='btn btn-color-2 project-btn' ><a href="https://online-learning-ten.vercel.app/" rel="noopener noreferrer">Live Demo</a></button>
         </div>
       </div>
 
@@ -84,7 +84,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className="details-container">
+      {/* <div className="details-container">
         <div className="article-container">
             <img src={project6} alt="Project  1" className="project-img" />
         </div>
@@ -96,7 +96,7 @@ const Project = () => {
         <button className='btn btn-color-2 project-btn' ><a href="https://github.com/Prince-Kid/Login-and-Signup-Html-css" rel="noopener noreferrer">Github</a></button>
             <button className='btn btn-color-2 project-btn' ><a href="https://prince-kid.github.io/Login-and-Signup-Html-css/"  rel="noopener noreferrer">Live Demo</a></button>
         </div>
-      </div>
+      </div> */}
       </div>
         </div>
     </section>
