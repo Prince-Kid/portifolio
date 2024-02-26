@@ -3,7 +3,7 @@ import "./project.css"
 import cerificate1 from "./asset/www.freecodecamp.org_certification_MucyoPrince_responsive-web-design.png"
 import cerificate2 from "./asset/devtown.PNG"
 import cerificate3 from "./asset/lms.simplilearn.com_courses_4212_JavaScript-for-Beginners_certificate_download-skillup.png"
-import cerificate4 from "./asset/Python.PNG"
+import cerificate4 from "./asset/js.png"
 import emailjs from '@emailjs/browser';
 import  { useRef } from 'react';
 import "./contact.css"
@@ -79,12 +79,12 @@ const Contact = () => {
             <img src={cerificate4} alt="Project  1" className="project-img" />
         </div>
         <h2 className="experience-sub-title projrct-title">
-        Uniathena
+        Free Code Camp
         </h2>
-        <p color='white'>A certificate of Particapation in Python</p>
+        <p color='white'>A certificate of Java Script Data Structure & Algorithm</p>
         <div className="btn-container">
-        <button className='btn btn-color-2 project-btn' ><a href="https://www.simplilearn.com/"rel="noopener noreferrer">Visit Web</a></button>
-            <button className='btn btn-color-2 project-btn'><a href="https://simpli-web.app.link/e/teopcT6BpEb" target='_blank' rel="noopener noreferrer">View</a></button>
+        <button className='btn btn-color-2 project-btn' ><a href="https://www.freecodecamp.org/certification/MucyoPrince/javascript-algorithms-and-data-structures-v8"rel="noopener noreferrer">Visit Web</a></button>
+            <button className='btn btn-color-2 project-btn'><a href="https://www.freecodecamp.org/certification/MucyoPrince/javascript-algorithms-and-data-structures-v8" target='_blank' rel="noopener noreferrer">View</a></button>
         </div>
       </div>
         </div>
